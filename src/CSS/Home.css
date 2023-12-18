@@ -8,15 +8,22 @@ body{
     overflow-x: hidden;
 }
 .name{
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     padding: 2rem;
-    font-size: 15px;
-    font-weight: 600;
+    display: flex;
+}
+.name h3{
+    font-family: 'Jost', sans-serif;
+}
+.name h6{
+    opacity: 50%;
+    margin-left: 450px;
+    margin-top: 15px;
 }
 .image{
     width: 1000px;
-    height: 600px;
-    left: 550px;
+    height: 650px;
+    left: 600px;
     bottom: 110px;
     position: relative;
     background-size: cover;
@@ -36,13 +43,16 @@ body{
 .Text-Section p{
     font-family: 'PT Sans Caption', sans-serif;
 }
+.Text-Section h5{
+    opacity: 50%;
+}
 
 .btn {
     padding: 12px 32px;
     font-size: 1rem;
     text-transform: uppercase;
-    background:  rgba(0, 0, 0, 0.2);
-    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+    color: #000000;
     border: 1px solid darkgrey;
     font-weight: 600;
     cursor: pointer;
@@ -55,8 +65,8 @@ body{
 }
 
 .btn:hover{
-    background: rgba(255, 255, 255, 0.2);
-    color: #000000;
+    background: rgb(2, 11, 45);
+    color: #ffffff;
     transition: 0.5s;
 
 }
