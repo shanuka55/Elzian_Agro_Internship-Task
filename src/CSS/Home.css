@@ -197,6 +197,15 @@ h1,h4,p,a{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 425px){
+
+
+    .image{
+        width: 700px;
+        height: 600px;
+        left: -100px;
+        bottom: 110px;
+    }
+
 
 }
