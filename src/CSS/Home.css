@@ -79,6 +79,7 @@ h1,h4,p,a{
     position: absolute;
     margin: auto;
     bottom: 25px;
+    left: 600px;
 
 }
 .nav-link{
@@ -86,9 +87,116 @@ h1,h4,p,a{
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: bold;
+    display: flex;
+
 }
 
 #contact-now{
-    margin-left: 600px;
     margin-right: 455px;
+}
+
+@media screen and (max-width: 1440px)  {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .Text-Section{
+        bottom: 10px;
+
+    }
+    .contact-menu{
+        bottom: -65px;
+        left: 600px;
+
+    }
+    #contact-now{
+        margin-right: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .name h6{
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .image{
+        width: 800px;
+        height: 550px;
+        left: 300px;
+        bottom: 110px;
+    }
+
+
+    .contact-menu{
+        bottom: -10px;
+        left: 370px;
+    }
+    #contact-now {
+        margin-right: 250px;
+    }
+    Text-Section{
+        position: absolute;
+        margin: auto;
+        bottom: 60px;
+        padding: 7rem;
+    }
+    .Text-Section h1{
+        font-size: 25px;
+    }
+    .Text-Section p{
+        font-size: 12px;
+    }
+    .Text-Section h5{
+        font-size: 15px;
+        opacity: 50%;
+    }
+
+    .btn {
+        padding: 12px 32px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        background: rgba(255, 255, 255, 0.2);
+        color: #000000;
+        border: 1px solid darkgrey;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .name h6{
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .image{
+        width: 700px;
+        height: 600px;
+        left: 200px;
+        bottom: 110px;
+    }
+    .contact-menu{
+        bottom: -50px;
+        left: 200px;
+    }
+    #contact-now {
+        margin-right: 170px;
+    }
+    .Text-Section{
+        bottom: 20px;
+        padding: 6rem;
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
 }
