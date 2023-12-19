@@ -226,3 +226,28 @@ h1,h4,p,a{
         margin-right: 13px;
     }
 }
+
+@media screen and (max-width: 376px){
+    .image {
+        width: 573px;
+        height: 615px;
+        left: 42px;
+        bottom: -206px;
+    }
+
+    .name h6 {
+        margin-left: 361px;
+        margin-top: 13px;
+    }
+    #ccc{
+        align-items: flex-end;
+        margin-right: -609px;
+    }
+    .contact-menu {
+        bottom: -390px;
+        left: 1px;
+    }
+    #contact-now {
+        margin-right: 131px;
+    }
+}
