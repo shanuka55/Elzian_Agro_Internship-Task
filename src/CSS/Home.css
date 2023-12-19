@@ -195,17 +195,34 @@ h1,h4,p,a{
         width: 450px;
     }
 }
-
-
-@media screen and (max-width: 425px){
-
-
-    .image{
+@media screen and (max-width: 426px){
+    .image {
         width: 700px;
         height: 600px;
-        left: -100px;
-        bottom: 110px;
+        left: 23px;
+        bottom: -229px;
     }
 
+    .Text-Section {
+        bottom: 20px;
+        padding: 6rem;
+        width: 532px;
+    }
 
+    .Text-Section h1 {
+        font-size: 45px;
+    }
+
+    .name h6 {
+        margin-left: 421px;
+        margin-top: 12px;
+    }
+
+    .contact-menu {
+        bottom: -410px;
+        left: 19px;
+    }
+    #contact-now {
+        margin-right: 13px;
+    }
 }
